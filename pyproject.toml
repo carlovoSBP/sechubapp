@@ -7,7 +7,9 @@ authors = [
     {name = "Carlo van Overbeek", email = "cvanoverbeek@schubergphilis.com"},
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "aws-lambda-powertools>=3.15.1",
+]
 classifiers = [
   # License
   "License :: OSI Approved :: Apache Software License",
@@ -15,6 +17,9 @@ classifiers = [
   # Python versions supported by the package
   "Programming Language :: Python :: 3.13",
 ]
+
+[project.scripts]
+sechubapp = "sechubapp:main"
 
 [build-system]
 requires = ["hatchling"]

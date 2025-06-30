@@ -1,5 +1,6 @@
 from unittest import TestCase
-from sechubapp import hello
+
+from sechubapp import main
 
 
 class TestSmoke(TestCase):
@@ -7,4 +8,4 @@ class TestSmoke(TestCase):
         self.assertTrue(True)
 
     def test_integration(self):
-        self.assertEqual("Hello from sechubapp!", hello())
+        self.assertIsNone(main("test"))

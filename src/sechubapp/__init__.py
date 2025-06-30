@@ -1,3 +1,1 @@
-from .sechubapp import hello
-
-assert hello
+from .sechubapp import main as main

@@ -1,0 +1,45 @@
+version = 1
+revision = 2
+requires-python = ">=3.13"
+
+[[package]]
+name = "aws-lambda-powertools"
+version = "3.15.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jmespath" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a3/89/697575d2d2379863f62c28ca96d8291fd19120a4a69db3c55405ed1235c5/aws_lambda_powertools-3.15.1.tar.gz", hash = "sha256:31c19887e012287da539f8c319da04e3f50c5f37d7b7ea1f0cd1c011f7ff05a8", size = 683181, upload-time = "2025-06-20T17:01:51.146Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/12/9e/c4ea28734a614a7632dc5ddbfd949a61027bbfb737c4b1b39b20caa42f43/aws_lambda_powertools-3.15.1-py3-none-any.whl", hash = "sha256:673ccfb27087d2940e798b2618e9cb992981ccb1d0310bc17c4d1c69ebcbec11", size = 824101, upload-time = "2025-06-20T17:01:48.695Z" },
+]
+
+[[package]]
+name = "jmespath"
+version = "1.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/00/2a/e867e8531cf3e36b41201936b7fa7ba7b5702dbef42922193f05c8976cd6/jmespath-1.0.1.tar.gz", hash = "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe", size = 25843, upload-time = "2022-06-17T18:00:12.224Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl", hash = "sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980", size = 20256, upload-time = "2022-06-17T18:00:10.251Z" },
+]
+
+[[package]]
+name = "sechubapp"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "aws-lambda-powertools" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "aws-lambda-powertools", specifier = ">=3.15.1" }]
+
+[[package]]
+name = "typing-extensions"
+version = "4.14.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/bc/51647cd02527e87d05cb083ccc402f93e441606ff1f01739a62c8ad09ba5/typing_extensions-4.14.0.tar.gz", hash = "sha256:8676b788e32f02ab42d9e7c61324048ae4c6d844a399eebace3d4979d75ceef4", size = 107423, upload-time = "2025-06-02T14:52:11.399Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/69/e0/552843e0d356fbb5256d21449fa957fa4eff3bbc135a74a691ee70c7c5da/typing_extensions-4.14.0-py3-none-any.whl", hash = "sha256:a1514509136dd0b477638fc68d6a91497af5076466ad0fa6c338e44e359944af", size = 43839, upload-time = "2025-06-02T14:52:10.026Z" },
+]
