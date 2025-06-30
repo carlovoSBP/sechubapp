@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/schubergphilis/paleofuturistic_python",
+  "commit": "89a5bfc225699e2472739db14b737826e07e94b6",
+  "checkout": "latest",
+  "context": {
+    "cookiecutter": {
+      "project_name": "sechubapp",
+      "project_slug": "sechubapp",
+      "project_description": "app hub sec",
+      "full_name": "Carlo van Overbeek",
+      "email": "cvanoverbeek@schubergphilis.com",
+      "python_version": "3.13",
+      "_template": "https://github.com/schubergphilis/paleofuturistic_python",
+      "_commit": "89a5bfc225699e2472739db14b737826e07e94b6"
+    }
+  },
+  "directory": null
+}

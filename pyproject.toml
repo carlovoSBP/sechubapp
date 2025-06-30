@@ -1,0 +1,21 @@
+[project]
+name = "sechubapp"
+version = "0.1.0"
+description = "app hub sec"
+readme = "README.md"
+authors = [
+    {name = "Carlo van Overbeek", email = "cvanoverbeek@schubergphilis.com"},
+]
+requires-python = ">=3.13"
+dependencies = []
+classifiers = [
+  # License
+  "License :: OSI Approved :: Apache Software License",
+
+  # Python versions supported by the package
+  "Programming Language :: Python :: 3.13",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
